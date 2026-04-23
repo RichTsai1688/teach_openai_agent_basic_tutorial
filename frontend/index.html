@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>空壓機 AI Agent</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="sidebar">
+        <section class="brand">
+          <h1>空壓機 AI Agent</h1>
+          <p id="healthText">檢查中</p>
+        </section>
+
+        <section>
+          <h2>案例</h2>
+          <div id="caseList" class="case-list"></div>
+        </section>
+
+        <section>
+          <h2>Memory</h2>
+          <form id="memoryForm" class="memory-form">
+            <input id="memoryValue" name="value" type="text" placeholder="新增記憶" autocomplete="off" />
+            <button type="submit">新增</button>
+          </form>
+          <div id="memoryList" class="memory-list"></div>
+        </section>
+      </aside>
+
+      <section class="chat-panel">
+        <header class="chat-header">
+          <div>
+            <h2 id="activeCaseTitle">Case 01 自主感測</h2>
+            <p id="sessionText"></p>
+          </div>
+          <button id="clearSessionButton" type="button">清除對話</button>
+        </header>
+
+        <div id="messages" class="messages"></div>
+
+        <form id="chatForm" class="chat-form">
+          <textarea id="messageInput" rows="2" placeholder="輸入問題"></textarea>
+          <button id="sendButton" type="submit">送出</button>
+        </form>
+      </section>
+
+      <aside class="evidence-panel">
+        <h2>工具證據</h2>
+        <div id="toolCalls" class="tool-calls"></div>
+        <h2>異常摘要</h2>
+        <pre id="evidenceBox">{}</pre>
+        <h2>下一步</h2>
+        <ul id="nextActions"></ul>
+      </aside>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

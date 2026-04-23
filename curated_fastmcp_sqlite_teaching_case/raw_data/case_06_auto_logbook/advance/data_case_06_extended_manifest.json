@@ -1,0 +1,92 @@
+{
+  "days": 15,
+  "seed": 96,
+  "row_count": 480,
+  "event_count": 12,
+  "events": [
+    {
+      "event_id": "LOG-01",
+      "anomaly_type": "low_pressure",
+      "start_time": "2026-05-05 13:00",
+      "end_time": "2026-05-05 13:45",
+      "severity": 1.023
+    },
+    {
+      "event_id": "LOG-02",
+      "anomaly_type": "cooling_issue",
+      "start_time": "2026-05-05 14:00",
+      "end_time": "2026-05-05 14:45",
+      "severity": 1.108
+    },
+    {
+      "event_id": "LOG-03",
+      "anomaly_type": "cooling_issue",
+      "start_time": "2026-05-06 12:00",
+      "end_time": "2026-05-06 12:45",
+      "severity": 1.048
+    },
+    {
+      "event_id": "LOG-04",
+      "anomaly_type": "low_pressure",
+      "start_time": "2026-05-07 14:00",
+      "end_time": "2026-05-07 14:45",
+      "severity": 1.027
+    },
+    {
+      "event_id": "LOG-05",
+      "anomaly_type": "cooling_issue",
+      "start_time": "2026-05-08 09:00",
+      "end_time": "2026-05-08 09:45",
+      "severity": 1.134
+    },
+    {
+      "event_id": "LOG-06",
+      "anomaly_type": "cooling_issue",
+      "start_time": "2026-05-08 12:00",
+      "end_time": "2026-05-08 12:45",
+      "severity": 1.104
+    },
+    {
+      "event_id": "LOG-07",
+      "anomaly_type": "low_pressure",
+      "start_time": "2026-05-09 09:00",
+      "end_time": "2026-05-09 09:45",
+      "severity": 1.06
+    },
+    {
+      "event_id": "LOG-08",
+      "anomaly_type": "dryer_issue",
+      "start_time": "2026-05-09 10:00",
+      "end_time": "2026-05-09 10:45",
+      "severity": 1.059
+    },
+    {
+      "event_id": "LOG-09",
+      "anomaly_type": "low_pressure",
+      "start_time": "2026-05-12 13:00",
+      "end_time": "2026-05-12 13:45",
+      "severity": 1.183
+    },
+    {
+      "event_id": "LOG-10",
+      "anomaly_type": "dryer_issue",
+      "start_time": "2026-05-13 11:00",
+      "end_time": "2026-05-13 11:45",
+      "severity": 1.118
+    },
+    {
+      "event_id": "LOG-11",
+      "anomaly_type": "low_pressure",
+      "start_time": "2026-05-13 14:00",
+      "end_time": "2026-05-13 14:45",
+      "severity": 1.188
+    },
+    {
+      "event_id": "LOG-12",
+      "anomaly_type": "dryer_issue",
+      "start_time": "2026-05-14 09:00",
+      "end_time": "2026-05-14 09:45",
+      "severity": 1.243
+    }
+  ]
+}

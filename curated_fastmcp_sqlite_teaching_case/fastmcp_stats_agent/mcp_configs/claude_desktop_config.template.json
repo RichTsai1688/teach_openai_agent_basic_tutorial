@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "air-compressor-stats": {
+      "command": "/ABSOLUTE/PATH/TO/.venv/bin/python",
+      "args": [
+        "/ABSOLUTE/PATH/TO/air_compressor_ai_agent_case_pack/fastmcp_stats_agent/server.py"
+      ],
+      "cwd": "/ABSOLUTE/PATH/TO/air_compressor_ai_agent_case_pack",
+      "env": {
+        "PYTHONPATH": "/ABSOLUTE/PATH/TO/air_compressor_ai_agent_case_pack"
+      }
+    }
+  }
+}

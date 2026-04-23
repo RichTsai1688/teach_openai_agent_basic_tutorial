@@ -1,0 +1,61 @@
+{
+  "days": 15,
+  "seed": 52,
+  "row_count": 360,
+  "event_count": 5,
+  "events": [
+    {
+      "event_id": "LEAK-01",
+      "anomaly_type": "night_leak",
+      "start_time": "2026-05-02 00:00",
+      "end_time": "2026-05-03 23:00",
+      "affected_dates": [
+        "2026-05-02",
+        "2026-05-03"
+      ],
+      "strength": 1.123
+    },
+    {
+      "event_id": "LEAK-02",
+      "anomaly_type": "night_leak",
+      "start_time": "2026-05-06 00:00",
+      "end_time": "2026-05-07 23:00",
+      "affected_dates": [
+        "2026-05-06",
+        "2026-05-07"
+      ],
+      "strength": 0.994
+    },
+    {
+      "event_id": "LEAK-03",
+      "anomaly_type": "night_leak",
+      "start_time": "2026-05-10 00:00",
+      "end_time": "2026-05-11 23:00",
+      "affected_dates": [
+        "2026-05-10",
+        "2026-05-11"
+      ],
+      "strength": 0.857
+    },
+    {
+      "event_id": "LEAK-04",
+      "anomaly_type": "night_leak",
+      "start_time": "2026-05-12 00:00",
+      "end_time": "2026-05-12 23:00",
+      "affected_dates": [
+        "2026-05-12"
+      ],
+      "strength": 1.007
+    },
+    {
+      "event_id": "LEAK-05",
+      "anomaly_type": "night_leak",
+      "start_time": "2026-05-13 00:00",
+      "end_time": "2026-05-13 23:00",
+      "affected_dates": [
+        "2026-05-13"
+      ],
+      "strength": 0.852
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "air-compressor-stats": {
+      "command": "/Users/rich-new-mbp/Documents/code/teach_openai_agent_basic/.venv/bin/python",
+      "args": [
+        "/Users/rich-new-mbp/Documents/code/teach_openai_agent_basic/curated_fastmcp_sqlite_teaching_case/fastmcp_stats_agent/server.py"
+      ],
+      "cwd": "/Users/rich-new-mbp/Documents/code/teach_openai_agent_basic/curated_fastmcp_sqlite_teaching_case",
+      "env": {
+        "PYTHONPATH": "/Users/rich-new-mbp/Documents/code/teach_openai_agent_basic/curated_fastmcp_sqlite_teaching_case",
+        "AIR_COMPRESSOR_DB_PATH": "/Users/rich-new-mbp/Documents/code/teach_openai_agent_basic/curated_fastmcp_sqlite_teaching_case/data/air_compressor_teaching_cases.sqlite"
+      },
+      "transport": "stdio",
+      "description": "Air compressor statistics tools for AI-agent classroom demos"
+    }
+  }
+}

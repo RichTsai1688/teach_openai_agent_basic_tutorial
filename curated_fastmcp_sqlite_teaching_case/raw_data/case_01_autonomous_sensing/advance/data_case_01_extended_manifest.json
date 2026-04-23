@@ -1,0 +1,88 @@
+{
+  "days": 15,
+  "seed": 42,
+  "row_count": 2160,
+  "event_count": 8,
+  "events": [
+    {
+      "event_id": "EVT-06",
+      "anomaly_type": "cooling_issue",
+      "start_idx": 361,
+      "end_idx": 364,
+      "start_time": "2026-05-03 12:10",
+      "end_time": "2026-05-03 12:40",
+      "duration_rows": 4,
+      "strength": 1.192
+    },
+    {
+      "event_id": "EVT-05",
+      "anomaly_type": "cooling_issue",
+      "start_idx": 445,
+      "end_idx": 451,
+      "start_time": "2026-05-04 02:10",
+      "end_time": "2026-05-04 03:10",
+      "duration_rows": 7,
+      "strength": 1.008
+    },
+    {
+      "event_id": "EVT-01",
+      "anomaly_type": "lubrication_loss",
+      "start_idx": 861,
+      "end_idx": 867,
+      "start_time": "2026-05-06 23:30",
+      "end_time": "2026-05-07 00:30",
+      "duration_rows": 7,
+      "strength": 0.951
+    },
+    {
+      "event_id": "EVT-03",
+      "anomaly_type": "bearing_wear",
+      "start_idx": 1392,
+      "end_idx": 1396,
+      "start_time": "2026-05-10 16:00",
+      "end_time": "2026-05-10 16:40",
+      "duration_rows": 5,
+      "strength": 1.327
+    },
+    {
+      "event_id": "EVT-07",
+      "anomaly_type": "load_spike",
+      "start_idx": 1753,
+      "end_idx": 1756,
+      "start_time": "2026-05-13 04:10",
+      "end_time": "2026-05-13 04:40",
+      "duration_rows": 4,
+      "strength": 1.167
+    },
+    {
+      "event_id": "EVT-08",
+      "anomaly_type": "bearing_wear",
+      "start_idx": 1863,
+      "end_idx": 1868,
+      "start_time": "2026-05-13 22:30",
+      "end_time": "2026-05-13 23:20",
+      "duration_rows": 6,
+      "strength": 1.289
+    },
+    {
+      "event_id": "EVT-04",
+      "anomaly_type": "cooling_issue",
+      "start_idx": 2016,
+      "end_idx": 2019,
+      "start_time": "2026-05-15 00:00",
+      "end_time": "2026-05-15 00:30",
+      "duration_rows": 4,
+      "strength": 1.221
+    },
+    {
+      "event_id": "EVT-02",
+      "anomaly_type": "load_spike",
+      "start_idx": 2142,
+      "end_idx": 2148,
+      "start_time": "2026-05-15 21:00",
+      "end_time": "2026-05-15 22:00",
+      "duration_rows": 7,
+      "strength": 1.111
+    }
+  ]
+}
