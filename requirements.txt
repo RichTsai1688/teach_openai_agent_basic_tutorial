@@ -1,7 +1,36 @@
-openai-agents>=0.14.4
-openai>=2.32.0
-python-dotenv>=1.2.2
-pandas>=2.0
-fastmcp>=3.2.4
-fastapi>=0.136.0
-uvicorn>=0.45.0
+# Runtime dependencies for the FastMCP SQLite agent app.
+# Recommended Python version: 3.10 - 3.12
+
+# OpenAI Agents app
+openai-agents>=0.14.4,<1
+openai>=2.32,<3
+
+# Backend / API
+fastapi>=0.136,<1
+uvicorn>=0.45,<1
+pydantic>=2.13,<3
+python-dotenv>=1.2,<2
+rich>=15,<16
+
+# FastMCP + data analysis
+fastmcp>=3.2,<4
+pandas>=2.1,<3
+numpy>=1.26,<3
+matplotlib>=3.7,<4
+
+# Local RAG runtime
+faiss-cpu>=1.8,<2
+sentence-transformers>=3,<6
+requests>=2.31,<3
+beautifulsoup4>=4.12,<5
+lxml>=5,<7
+tqdm>=4.66,<5
+PyYAML>=6,<7
+
+# Optional teaching document helpers used by the case pack scripts
+python-docx>=1.2,<2
+python-pptx>=1.0,<2
+
+# Optional crawler helpers used by rag_tools scripts
+selenium>=4.20,<5
+webdriver-manager>=4,<5
