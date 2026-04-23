@@ -1,0 +1,5 @@
+-r requirements.txt
+
+# Optional development tools
+black>=24,<27
+pylint>=3,<5

@@ -1,0 +1,18 @@
+[
+  {
+    "type": "CompositeElement",
+    "element_id": "b2aaf5c2-abb9-4f5e-b7c9-5abeb6b0c243",
+    "text": "Example Domain\nThis domain is for use in documentation examples without needing permission. Avoid use in operations.\nLearn more",
+    "metadata": {
+      "filename": "b2aaf5c2-abb9-4f5e-b7c9-5abeb6b0c243",
+      "source_url": "https://example.com",
+      "filetype": "text/html",
+      "embedding": [],
+      "content_blocks": [
+        "Example Domain",
+        "This domain is for use in documentation examples without needing permission. Avoid use in operations.",
+        "Learn more"
+      ]
+    }
+  }
+]
